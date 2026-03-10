@@ -84,5 +84,6 @@ Further development would require larger datasets, improved models, and collabor
 * J. Bawa, “How we’re using AI to combat the latest scams,” Google:
   https://blog.google/innovation-and-ai/technology/safety-security/how-were-using-ai-to-combat-the-latest-scams/ ‌
 * A. Safi and S. Singh, “A systematic literature review on phishing website detection techniques,”
-  Journal of King Saud University - Computer and Information Sciences: https://doi.org/10.1016/j.jksuci.2023.01.004.‌
+  Journal of King Saud University - Computer and Information Sciences:
+  [https://doi.org/10.1016/j.jksuci.2023.01.004.‌](https://www.sciencedirect.com/science/article/pii/S1319157823000034)
 * Public datasets related to phishing and scam detection available on platforms such as Kaggle.
