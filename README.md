@@ -6,52 +6,63 @@ Building AI course project – an idea for an AI system that detects online scam
 Building AI course project – AI Scam Detector
 
 ## Summary
-This project proposes an AI system that analyzes emails, SMS messages and online texts to detect possible scams or phishing attempts. Using natural language processing and machine learning, the system identifies suspicious patterns and warns users before interacting with fraudulent content
-
+This project proposes an AI system that analyzes emails, SMS messages, and online texts to detect possible scams or phishing attempts. Using natural language processing and machine learning techniques, the system identifies suspicious patterns and warns users before interacting with fraudulent content.
 
 ## Background
-Online scams and phishing attacks are increasing every year. Many users receive fraudulent emails or messages pretending to be from banks, delivery services or well-known companies.
+Online scams and phishing attacks are increasing every year. Many users receive fraudulent emails or messages pretending to be from banks, delivery services, or well-known companies.
 
-These scams often try to convince users to click malicious links or provide personal information.
+These scams often try to convince users to click malicious links or provide personal information such as passwords, credit card numbers, or banking details.
 
 Some key problems include:
 
-* Many users cannot easily recognize scam messages
-* Fraudulent messages often imitate trusted organizations
-* Online scams can cause financial loss and identity theft
-* Detecting scams manually is difficult and time-consuming
+* Many users cannot easily recognize scam messages  
+* Fraudulent messages often imitate trusted organizations  
+* Online scams can cause financial loss and identity theft  
+* Detecting scams manually is difficult and time-consuming  
 
-According to Google, AI systems are already being used to detect and block hundreds of millions of scam pages every day in search results.
+According to Google, artificial intelligence is already being used to detect and block hundreds of millions of scam pages every day in search results. AI systems can analyze large amounts of online content and identify suspicious patterns that may indicate fraud.
+
+Research on phishing detection also shows that machine learning techniques are widely used to classify suspicious messages and websites. These models can learn patterns from large datasets and help identify malicious messages before users interact with them.
 
 ## How is it used?
 
-1. A user receives an email or message.
-2. The message is analyzed by the AI system.
-3. The model detects suspicious language patterns or phishing links.
-4. The system gives a risk score and warns the user if the message is likely to be a scam.
+The system could be used as a browser extension, a mobile application, or a security tool integrated into email platforms.
+
+Example of how the system could work:
+
+1. A user receives an email, SMS, or online message.  
+2. The message is analyzed by the AI system.  
+3. The model detects suspicious language patterns, unusual links, or requests for sensitive information.  
+4. The system gives a risk score and warns the user if the message is likely to be a scam.  
 
 Possible users:
 
-* Internet users
-* Email platforms
-* Banks and financial institutions
-* Messaging platforms
+* Internet users  
+* Email platforms  
+* Banks and financial institutions  
+* Messaging platforms  
+* Cybersecurity teams  
+
+The goal of the system is to help users recognize suspicious messages before they interact with them.
 
 ## Data sources and AI methods
 
 Possible data sources:
 
-* phishing email datasets
-* scam message databases
-* cybersecurity datasets
-* public datasets from Kaggle
+* phishing email datasets  
+* scam message databases  
+* cybersecurity datasets  
+* public datasets from Kaggle  
+* phishing URL datasets such as PhishTank  
 
 Possible AI techniques:
 
-* Natural Language Processing (NLP)
-* text classification
-* machine learning models
-* neural networks
+* Natural Language Processing (NLP)  
+* text classification models  
+* machine learning algorithms such as Random Forest or Logistic Regression  
+* neural networks and deep learning models  
+
+Machine learning models can analyze patterns in text, links, and message structure to determine whether a message is legitimate or potentially fraudulent.
 
 ## Challenges
 
@@ -59,10 +70,10 @@ This project does not guarantee perfect detection of scam or phishing messages.
 
 Some limitations include:
 
-* Legitimate messages could be misclassified as scams.
-* Some dangerous messages may not be detected.
-* Scam techniques evolve over time and models need continuous updates.
-* Privacy and ethical concerns must be considered when analyzing personal messages.
+* Legitimate messages could be misclassified as scams.  
+* Some dangerous messages may not be detected.  
+* Scam techniques evolve over time and models need continuous updates.  
+* Privacy and ethical concerns must be considered when analyzing personal messages.  
 
 Therefore, the system should assist users and cybersecurity professionals rather than replace human judgement.
 
@@ -70,10 +81,10 @@ Therefore, the system should assist users and cybersecurity professionals rather
 
 Future improvements could include:
 
-* Real-time monitoring of suspicious emails and messages
-* Browser extensions that warn users about phishing websites
-* Multilingual scam detection
-* Collaboration with cybersecurity organizations and digital safety experts
+* Real-time monitoring of suspicious emails and messages  
+* Browser extensions that warn users about phishing websites  
+* Multilingual scam detection  
+* Collaboration with cybersecurity organizations and digital safety experts  
 
 Further development would require larger datasets, improved models, and collaboration with experts in cybersecurity and online fraud prevention.
 
